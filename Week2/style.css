@@ -1,0 +1,279 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My CSS reset */
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Start */
+
+body {
+    font-family: 'Bruno Ace SC', cursive;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+
+.navbar {
+    padding-top: 40px;
+}
+
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.banner-text {
+    width: 50%;
+}
+
+.btn {
+    padding: 12px 24px;
+    border-radius: 32px;
+}
+
+.intro {
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.intro-sparks {
+    gap: 16px;
+}
+
+.about-group {
+    max-width: 636px;
+    gap: 24px;
+}
+
+.about-group li {
+    padding: 16px;
+    border: 1px solid #e3e3e3;
+    width: calc((100% - 24px) / 2);
+    gap: 4px;
+}
+
+.about-content {
+    max-width: 526px;
+    gap: 24px;
+}
+
+.contact {
+    background: linear-gradient(0deg, #1d1e37 0%, #050014 100%);
+}
+
+.contact-title img {
+    width: 100px;
+    height: 100px;
+}
+
+.contact-items .image {
+    object-fit:cover;
+    border-radius: 40px;
+    width: 162px;
+    height: 162px;
+}
+
+.contact-items .image:hover {
+    box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+    border-radius: 40px;
+}
+
+.project-title {
+    width: 746px;
+}
+
+.footer {
+    text-align: center;
+}
+
+/* flex */
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.self-end {
+    align-self: end;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.self-start {
+    align-self: start;
+}
+
+/* color */
+.bg-black {
+    background-color: #000;
+}
+
+.text-black {
+    color: #000;
+}
+
+.text-light-black {
+    color: #15161d;
+}
+
+.text-gray {
+    color: #d1d1d1;
+}
+
+.text-white{
+    color: #fff;
+}
+
+.text-green {
+    color: #00ffa3;
+}
+
+li a:hover {
+    color: gray;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+/* Position */
+.py-72 {
+    padding: 72px 0;
+}
+
+.py-160 {
+    padding: 160px 0;
+}
+
+.py-96 {
+    padding: 96px 0;
+}
+
+.py-40 {
+    padding: 40px 0;
+}
+
+.ml-4 {
+    margin-left: 4px;
+}
+
+.mr-24 {
+    margin-right: 24px;
+}
+
+.mr-13 {
+    margin-right: 13px;
+}
+
+.mb-36 {
+    margin-bottom: 36px;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+/* size */
+h2 {
+    font-size: 64px;
+}
+
+h1 {
+    font-size: 128px;
+}
+
+.fz-24 {
+    font-size: 24px;
+}
+
+.fz-20 {
+    font-size: 20px;
+}
+
+/* Others */
+
+a.btn:hover {
+    color: gray;
+}
